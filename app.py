@@ -1,9 +1,11 @@
 from flask import Flask, render_template, Response
 import cv2
-import winsound
+
 from ultralytics import YOLO
 import threading
 from playsound import playsound
+
+playsound("alert.mp3")
 
 app = Flask(__name__)
 
