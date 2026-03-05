@@ -12,7 +12,7 @@ def detect_phone(frame):
 
     phone_detected = False
 
-    for r in results:-
+    for r in results:
         boxes = r.boxes
 
         for box in boxes:
